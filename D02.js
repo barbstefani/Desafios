@@ -1,8 +1,7 @@
 
 
-function numeroPosicao(){
+function numeroPosicao(numeroRecebido){
  const numeroInteiro = [ 1, 4, 5, 10, 120, 368]
- const numeroRecebido = 1;
  let encontrado = false;
  
     for(let i = 0; i < numeroInteiro.length; i++){
@@ -20,4 +19,4 @@ function numeroPosicao(){
 
 }
 
-numeroPosicao();
+numeroPosicao(10);
